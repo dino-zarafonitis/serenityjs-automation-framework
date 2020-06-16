@@ -1,0 +1,55 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "config": {
+    "environment": "http://dummy.restapiexample.com"
+  },
+  "scripts": {
+    "postinstall": "serenity-bdd update",
+    "clean": "rimraf target",
+    "test:api": "jasmine --config=./jasmine.json --reporter=@serenity-js/jasmine",
+    "test:report": "serenity-bdd run",
+    "lint": "tslint --project tsconfig.json --format stylish",
+    "test:uat": "failsafe clean env:uat test:api test:report",
+    "env:uat": "npm config set ${npm_package_name}:environment http://dummy.restapiexample.com",
+    "env:prod": "npm config set ${npm_package_name}:environment http://dummy.restapiexample.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinozarafonitis/automation.git"
+  },
+  "engines": {
+    "node": ">= 10",
+    "npm": ">= 6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-healthcheck": "^0.1.0",
+    "todomvc-common": "^1.0.5",
+    "todomvc-app-css": "^2.3.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@serenity-js/assertions": "^2.10.2",
+    "@serenity-js/core": "^2.10.2",
+    "@serenity-js/console-reporter": "^2.10.2",
+    "@serenity-js/jasmine": "^2.10.2",
+    "@serenity-js/local-server": "^2.10.2",
+    "@serenity-js/protractor": "^2.10.2",
+    "@serenity-js/rest": "^2.10.2",
+    "@serenity-js/serenity-bdd": "^2.10.2",
+    "@types/jasmine": "^3.5.10",
+    "@types/node": "^14.0.13",
+    "chromedriver": "^83.0.0",
+    "jasmine": "^3.5.0",
+    "npm-failsafe": "^0.4.1",
+    "protractor": "^7.0.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "typescript": "^3.9.5"
+  }
+}
