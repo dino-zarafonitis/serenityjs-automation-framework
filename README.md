@@ -1,9 +1,11 @@
 # Automation Assignment
 
+## Note
+This assignment is using Serenity/JS which is a next generation full-stack acceptance testing framework with the ability to automate both API and UI tests. You can learn more at [serenity-js.org](https://serenity-js.org).
+
 ## Test Plan
 
-The following categories have been briefly identified. In a real world scenario, a [Visual Task Analysis*](https://drive.google.com/file/d/1ThrYRcO3zs3uaxuJXUSlbFClTqQAKYqd/view) and/or a [Mind Map*](https://drive.google.com/file/d/1SkstPU4XvY-TbGifzT9HBi4bn0tgjpUr/view) would have been used for modelling the system as well as identifying and oragnising more testing categories.  
-*The illustrations are given only as a general reference.
+The following categories have been briefly identified. In a real world scenario, a [Visual Task Analysis*](https://drive.google.com/file/d/1ThrYRcO3zs3uaxuJXUSlbFClTqQAKYqd/view) and/or a [Mind Map*](https://drive.google.com/file/d/1SkstPU4XvY-TbGifzT9HBi4bn0tgjpUr/view) would have been used for modelling the system as well as identifying and oragnising more testing categories. The Visual Task Analysis in combination with the Serenity-JS would have provided an API + UI automation solution under the same framework. *The illustrations are given only as a general reference.
 
 
 | Test Scenario Category                                | Category                                                                                                                                                                                      | Description                                                                                                                              | Status           | Specification             |
@@ -40,5 +42,3 @@ npm run test:uat        # executes the example tests on UAT environment and gene
 npm run test:prod       # executes the example tests on PROD environment and generates the html report under ./target/site/serenity
 ```
 
-## Note
-This assignment was made using Serenity/JS which is a next generation full-stack acceptance testing framework with the ability to automate both API and UI tests. You can learn more at [serenity-js.org](https://serenity-js.org).
