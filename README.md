@@ -36,8 +36,8 @@ To use this project, you'll need:
 ```
 npm ci                  # installs the node modules
 npm run lint            # runs the code linter
-npm run test:uat            # executes the example tests on UAT environment and generates the report under ./target/site/serenity
-npm run test:prod           # executes the example tests on PROD environment and generates the report under ./target/site/serenity
+npm run test:uat        # executes the example tests on UAT environment and generates the report under ./target/site/serenity
+npm run test:prod       # executes the example tests on PROD environment and generates the report under ./target/site/serenity
 ```
 
 ## Note
