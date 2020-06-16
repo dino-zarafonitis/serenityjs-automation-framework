@@ -36,11 +36,9 @@ To use this project, you'll need:
 ```
 npm ci                  # installs the node modules
 npm run lint            # runs the code linter
-npm start               # starts the web server with a demo app
-npm test:uat            # executes the example tests on UAT environment and generates the report under ./target/site/serenity
-npm test:prod           # executes the example tests on UAT environment and generates the report under ./target/site/serenity
+npm run test:uat            # executes the example tests on UAT environment and generates the report under ./target/site/serenity
+npm run test:prod           # executes the example tests on PROD environment and generates the report under ./target/site/serenity
 ```
 
 ## Note
 This assignment was made using Serenity/JS which is a next generation full-stack acceptance testing framework with the ability to automate both API and UI tests. You can learn more at [serenity-js.org](https://serenity-js.org).
-
