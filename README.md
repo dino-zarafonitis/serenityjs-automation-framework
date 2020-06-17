@@ -22,7 +22,6 @@ The following categories have been briefly identified. In a real world scenario,
 | Verification of payload                               | Verify that error format is according to spec. e.g., error is a valid JSON object or a plain string (as defined in spec)                                                                      |                                                                                                                                          | Pending          |                           |
 |                                                       | Response structure is according to data model  (schema validation) field names and field types are as expected, including nested objects; field values are, non-nullable fields are not null) |                                                                                                                                          | Pending          |                           |
 
-Status: Completed
 
 ###
 
