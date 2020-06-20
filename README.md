@@ -1,7 +1,7 @@
 # Automation Assignment
 
 ## Note
-This assignment is using Serenity/JS which is a next generation full-stack acceptance testing framework with the ability to automate both functional API and UI tests. You can learn more at [serenity-js.org](https://serenity-js.org). An alternative testing approach could have been implemented using a different tool, such as the pact.io for the implementation of contract tests.
+This assignment is using Serenity/JS which is a next generation full-stack acceptance testing framework with the ability to automate both functional API and UI tests. You can learn more at [serenity-js.org](https://serenity-js.org). An alternative testing approach could have been implemented using a different tool, such as the [pact.io](https://pact.io/) for the implementation of contract tests.
 
 ## Test Plan
 
