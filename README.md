@@ -1,7 +1,7 @@
 # API & UI Automation with Serenity/JS
 
 ## Note
-This assignment is using Serenity/JS which is a next generation full-stack acceptance testing framework with the ability to automate both functional API and UI tests. You can learn more at [serenity-js.org](https://serenity-js.org).
+Exploring next-generation testing frameworks: Serenity/JS for robust API and UI automation. This repository is using Serenity/JS which is a next generation full-stack acceptance testing framework with the ability to automate both functional API and UI tests. You can learn more at [serenity-js.org](https://serenity-js.org).
 
 ## Test Plan
 
